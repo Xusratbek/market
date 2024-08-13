@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+          .login-main{
+                    border: 1px solid;
+                    width: 397px;
+                    height: 507px;
+                    margin-top: 120px;
+                    margin-left: 600px;
+                    background-color: black;
+
+                    .login{
+                              font-family: Itim, cursive;
+                              font-size: 28px;
+                              text-align: center;
+                              color: #FFFFFF;
+                    }
+                    label{
+                              font-family: Itim, cursive;
+                              color:#FFFFFF;
+                    }
+                    .login-main-input {
+                              width: 100%;
+                              height: 25px;
+                              border-radius: 5px;
+                              padding: 5px;
+                              border: 2px solid #FFFFFF;
+                              color: white;
+                              outline: none;
+                              background-color: black;
+                              
+
+                    }
+                    .login-main-input::placeholder{
+                              color: white;
+                             
+                    }
+                    
+                    .forget{
+                              font-family: Itim, cursive;
+                              margin-left: 240px;
+                              text-decoration: none;
+                              color: #1A7FC1;
+                    }
+                    .login-btn{
+                              font-family: Itim, cursive;
+                              font-size: 21px;
+                              color:#FFFFFF;
+                              width: 100%;
+                              height: 48px;
+                              border-radius: 8px;
+                              border: none;
+                              background-color: #1A7FC1;
+
+
+                    }
+                    .linear{
+                              display: flex;
+                              gap: 10px;
+                              justify-content: center;
+                              .or{
+                                        font-size: 20px;
+                                        font-family: Itim, cursive;
+                                        color: #FFFFFF;
+                                        margin-top: -14px;
+
+
+                              }
+
+
+                              .linear-hr{
+                                        width: 130px;
+                                        height: 1px;
+                                        background-color: #FFFFFF;
+
+                              }
+                    }
+                    .cdf{
+                              display: flex;
+                              justify-content: center;
+                              .google-btn{
+                                        width: 48px;
+                                        height: 48px;
+                                        border-radius: 50%;
+                                        border: none;
+                                        
+          
+          
+                                        .google-img{
+                                                  width: 48px;
+                                                  height: 48px;
+                                                  border-radius: 50%;
+                                                  margin-left: -8px;
+                                                  margin-top: -2px;
+                                        }
+                              }
+                    }
+                    .have{
+                              display: flex;
+                              justify-content: center;
+                              margin-top: -40px;
+                              gap: 5px;
+
+                              .dont{
+                                        color: #FFFFFF;
+                                        font-family: Itim, cursive;
+                                        font-size: 14px;
+
+                              }
+                              .object{
+                                        margin-top: 14px;
+                                        font-family: Itim, cursive;
+                                        font-size: 14px;
+                                        color:#1A7FC1;
+                                        text-decoration: none;
+                                        
+                              }
+                    }
+
+                    
+          
+          }
+
